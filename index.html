@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container box"> 
+        <title>Tic Tak Toe</Title>
+    </div>
+    
+    
+    <link rel="stylesheet" href="style.css" />
+
+    <div>
+        <span>
+            <input size="10"
+             type="text"
+             id="board-size-input"
+             placeholder="Board 3"
+             />
+        </span>
+
+        <span>
+            &nbsp; 
+        </span>
+
+        <span>
+            <input
+            size="10"
+            type="text"
+            id="to-win-input"
+            placeholder="To win: 3"
+            />
+        </span>
+
+        <button id=submit-button">Submit</button>
+    </div>
+
+    <br />
+
+    <div>
+        <p class="alert"></p>
+    </div>
+
+
+    <table class="table">
+        <tbody>
+            <tr class="x1">
+             <td id="x1 y1"></td>
+             <td id="x1 y2"></td>
+             <td id="x1 y3"></td>
+            </tr> 
+    
+        <tbody>
+            <tr class="x2">
+               <td id="x2 y1"></td>
+               <td id="x2 y2"></td>
+               <td id="x2 y3"></td>
+        </tr> 
+    
+        <tbody>
+        <tr class="x3">
+            <td id="x3 y1"></td>
+            <td id="x3 y2"></td>
+            <td id="x3 y3"></td>
+        </tr> 
+            
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

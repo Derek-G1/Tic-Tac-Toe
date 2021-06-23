@@ -1,0 +1,23 @@
+table {
+  height: 50vh;
+  width: 50vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+td {
+  border: 1px black solid;
+  background-color: rgba(0, 0, 0, 5%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.alert {
+  height: 1rem;
+}
